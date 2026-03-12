@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Chat App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <div class="users" id="usersList"></div>
+
+  <div class="chat">
+
+    <div class="chatHeader">
+      <span id="chatUser">Select a user</span>
+      <div class="chatIcons">
+        <span class="call">📞</span>
+        <span id="clearChat">🗑</span>
+      </div>
+    </div>
+
+    <div class="chatArea" id="chatBox"></div>
+
+    <div class="inputArea">
+      <button id="emojiBtn">😊</button>
+      <input id="messageInput" placeholder="Type message...">
+      <button id="sendBtn">Send</button>
+    </div>
+
+    <div id="emojiPicker" class="emojiPicker"></div>
+
+  </div>
+
+</div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
